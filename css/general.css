@@ -9,11 +9,82 @@
 
 :root{
     --max-width: 1100px;
+   /* colores*/
     --color-primario: #1a1a1a;
     --color-secundario: #f5f5f5;
     --color-acento: #cc0000;
     --color-acento-hover: #990000;
     --color-superficie: #2e2e2e;
+    --color-logo: #e0e0e0;  
+    /* Tipografía */
+  --fuente-titulo: 'Montserrat', sans-serif;
+  --fuente-cuerpo: 'Open Sans', sans-serif;
+    
+  
+}
+
+body{
+    background-color: var(--color-primario);
+    color: var(--color-secundario);
+    line-height: 1.6;
+    min-height: 100vh; /*esto es para que el footer no se suba*/
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fuente-cuerpo);
+}
+
+
+h1,h2,h3{
+    font-family: var(--fuente-titulo);
+
+}
+
+img{
+    max-width: 100%;
+    display: block;
+
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
 
 
 }
+
+ul{
+    list-style: none;
+
+}
+
+/*header y nav*/
+
+header{
+    background-color: var(--color-superficie);
+    padding: 1rem; 
+    position: sticky;
+    top: 0;
+    z-index:10 ;
+    }
+
+.navbar{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        max-width: var(--max-width);
+        margin: 0 auto;
+        flex-wrap: nowrap;
+        gap: 1rem;
+
+
+    }
+
+    
+
+    .logo{
+        color: var(--color-logo);
+        font-family: var(--fuente-titulo);
+        font-size: 1.5rem;
+        font-weight: 700;
+        text-decoration: none;
+    }
