@@ -15,7 +15,8 @@
     --color-acento: #cc0000;
     --color-acento-hover: #d6bcbc;
     --color-superficie: #2e2e2e;
-    --color-logo: #e0e0e0;  
+    --color-logo: #e0e0e0; 
+    --color-hero-title: #FFFFFF; 
     /* Tipografía */
   --fuente-titulo: 'Montserrat', sans-serif;
   --fuente-cuerpo: 'Open Sans', sans-serif;
