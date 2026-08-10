@@ -101,3 +101,39 @@ header{
         margin-right: 0.6em;
 
     }
+/* footer */
+
+footer{
+    background-color: var(--color-superficie);
+    color: var(--color-secundario);
+    text-align: center;
+    padding: 2.5rem 1rem;
+    margin-top: auto; /*junto con el flex y el min height del body empuja el footer siempre hacia abajo de manera automatica*/
+    
+}
+
+.footer-nav{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    
+}
+
+    
+.footer-nav a:hover{
+    color: var(--color-acento-hover);   
+}
+
+.footer-iconos{
+    display: flex;
+    text-align: center;
+    gap:1.5rem;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.footer-iconos a:hover{
+    color: var(--color-acento-hover);
+}
