@@ -58,6 +58,16 @@ ul{
 
 }
 
+.page-title{
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 2rem 0;
+    color: var(--color-hero-title);
+    
+
+
+}
+
 /*header y nav*/
 
 header{
@@ -129,14 +139,14 @@ header{
 
 }
 
-.btn-secundario:hover{
+.btn-secundario{
     color: var(--color-secundario);
     background-color: var(--color-superficie);
     transition: background-color 0.3s;
     
 }
 
-.btn-primario:hover{
+.btn-secundario:hover{
     background-color: var(--color-acento-hover);
     transform: translateY(-2px);
 

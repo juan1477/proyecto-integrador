@@ -1,0 +1,24 @@
+.card-section{
+    max-width: var(--max-width);
+    margin: 0 auto; /*acomoda los elmentos al medio*/
+    padding: 1rem 2rem 3rem ;
+}
+
+.card-grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+
+}
+
+.card{
+    background-color: var(--color-primario);
+    border-radius: 10px;
+    overflow: hidden; /*cuando algo es mas grande que su contenedor sucede overflow o sea que esta desbordada del contenedor */
+    box-shadow: 0 4px rgba 0,0,0,0.08 ;
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    
+}
