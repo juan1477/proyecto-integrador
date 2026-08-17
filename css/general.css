@@ -133,7 +133,7 @@ header{
     
 }
 
-.btn-secundario:hover{
+.btn-primario:hover{
     background-color: var(--color-acento-hover);
     transform: translateY(-2px);
 
