@@ -34,6 +34,11 @@ body{
     font-family: var(--fuente-cuerpo);
 }
 
+.main-section{
+    max-width: var(--max-width);
+    margin: 0 auto; /*acomoda los elmentos al medio*/
+    padding: 1rem 2rem 3rem ;
+}
 
 h1,h2,h3{
     font-family: var(--fuente-titulo);
