@@ -23,6 +23,63 @@
 
         </nav>
     </header>
+    <h1 class="page-title">Contactanos</h1>
+    <section class="main-section">
+        <form>
+            <div class="form-group">
+                <label for="name">Nombre</label>
+                <input type="text" placeholder="Nombre" name="name" id="name" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="Apellido">Apellido</label>
+                <input type="text" placeholder="Apellido" name="lastName" id="lastName" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Telefono</label>
+                <input type="tel" placeholder="Telefono" name="phone" id="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" placeholder="Tu email" name="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="reason">Motivo del contacto</label>
+                <select name="reason" id="reason">
+                    <option value="" disabled selected>seleciona una opcion</option>
+                    <option value="consulta">Consulta de plan</option>
+                    <option value="contrato">Contratar plan</option>
+                    <option value="problemas">Inconvenientes</option>
+                    <option value="otros">otros</option>
+
+                </select>
+            </div>
+            <fieldset>
+                <legend>es tu primera vez con nosotros?</legend>
+                <div class="radio-group">
+                    <div>
+                        <input type="radio" id="first-yes" name="first-visit" value="si"required>
+                        <label for="">no</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="first-no" name="first-visit" value="no" required>
+                        <label for="">si</label>
+                    </div>
+                </div>
+            </fieldset>
+            <div class="form-group">
+                <label for="comment">mensaje</label>
+                <textarea name="comment" id="comment" placeholder="Contanos tus dudas" cols="10" rows="10" required></textarea>
+            </div>
+            <div class="form-buttons">
+                <button class="btn btn-primario" type="submit">Enviar</button>
+                <button class="btn btn-secundario" type="reset" >Resetear</button>
+
+            </div>
+        </form>
+
+    </section>
 
     <footer>
         <ul class="footer-nav" >
